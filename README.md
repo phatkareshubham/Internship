@@ -1,60 +1,36 @@
-# Super Store Sales Dashboard - Power BI Project
+# Power BI Dashboard – Sales Analysis (Superstore)
 
-##  Overview
+##  Objective
+Design an interactive dashboard for business stakeholders to help them monitor key performance metrics like Sales, Profit, and Growth across regions and categories.
 
-This Power BI project visualizes sales and profit data from a fictional Super Store dataset. The dashboard helps analyze business performance across various dimensions like region, category, segment, ship mode, and time.
+##  Dataset
+- Source: Sample Superstore Dataset ([Download Link](https://community.tableau.com/s/question/0D54T00000CWe1NSAT/sample-superstore-data))
+- Format: Excel (`.xlsx`)
+- Records: Customer orders including order date, sales, profit, category, region, and more.
 
-##  Features
+##  Tools Used
+- Power BI (for data modeling and dashboard creation)
 
-- **Total Sales, Orders, Profit, and Regions** summarized using KPI cards.
-- **Monthly Sales Trend** comparison for multiple years (YoY).
-- **Sales and Profit Distribution** by:
-  - Payment Mode
-  - Segment
-  - Ship Mode
-  - Category & Sub-Category
-- **Geo Map Visualization** of Sales & Profit by U.S. States.
-- Interactive filters for regions (Central, East, South, West).
-- Clean, user-friendly layout with drill-through capability enabled.
+##  Dashboard Features
+- **KPIs:** Total Sales, Total Profit, Total Orders, Avg. Discount
+- **Visuals:**
+  - Sales and Profit Trends (Line Charts)
+  - Sales by Region (Map/Bar)
+  - Profit by Segment
+  - Sales by Category & Sub-category
+  - Top 10 Products by Sales
+- **Interactivity:**
+  - Slicers for Date, Region, Segment, Category
+  - Drill-down capabilities
 
-##  Data Used
+##  Screenshot
+Dashboard view
 
-The dataset includes fields like:
-- Order Date, Ship Date
-- Sales, Profit, Quantity
-- Customer Details
-- Product Category/Sub-Category
-- Payment Mode, Segment, Region
+##  Summary
+A dynamic dashboard was created using Power BI that enables business stakeholders to:
+- Track key business metrics
+- Analyze regional and product performance
+- Identify sales trends and high/low performing categories
 
-##  Tools & Technologies
 
-- **Power BI Desktop**
-- Data modeling using Power Query Editor
-- DAX for custom measures (Sales, Profit, YoY)
-- Drill-through & slicers for interactivity
-
-##  How to Use
-
-1. Open `SuperStore_Sales.pbix` file in Power BI Desktop.
-2. Use region slicers to filter data.
-3. Hover on visuals for insights (e.g., tooltips show detailed values).
-4. Use visual filters and map interactions for deeper analysis.
-
-## 📷 Screenshot
-
-![Dashboard Screenshot](Screenshot_2025-08-06_202838.png)
-
-##  Insights Gained
-
-- Most orders come from **Consumer** segment and **Online** mode.
-- **Technology** category leads in revenue.
-- June saw a peak in 2020 sales compared to 2019.
-- Sales and profit distribution varies significantly across states and modes.
-
-##  Author
-
-**Shubham Milind Phatkare**  
-_Data Analyst Enthusiast_
-
----
 
